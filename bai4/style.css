@@ -1,0 +1,16 @@
+h1{
+	font-size: 60px;
+	text-align: center;
+	color:red;
+}
+a{
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+	color:grey;
+	margin: 10px 10px;
+}
+
+a:active{
+	color:pink;
+}
