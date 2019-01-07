@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 h1{
 	font-size: 60px;
 	text-align: center;
@@ -12,5 +15,38 @@ a{
 }
 
 a:active{
-	color:pink;
+	color:red;
 }
+#main-menu{
+	position: relative;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #dddddd;
+}
+
+#main-menu > a:first-child {
+	position: absolute;
+	padding: 4px;
+	background-color: #ffffff;
+	border-radius: 50%;
+    top: -162px;
+    left: 71px;
+}
+#main-menu > a:first-child > img{
+	max-width: 200px;
+	border-radius: 50%;
+}
+#top {
+	position: fixed;
+	right: 10px;
+	bottom:10px;
+}
+.sapa{
+	max-width: 100%;
+}
+.wrap{
+	max-width: 1800px;
+	margin:auto;
+}
+
