@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: auto;
 }
 h1{
 	font-size: 60px;
@@ -51,8 +50,9 @@ a:active{
 	margin:auto;
 }
 .hang{
-	padding:5px;
+	padding: 5px;
 	float: left;
 	width: 33.33333%;
+	border: 1px;
 	border-top-width: 5px;
 }
