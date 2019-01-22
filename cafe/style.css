@@ -126,3 +126,11 @@ span{
 	right: 10px;
 	bottom:10px;
 }
+.best-seller{
+	position: absolute;
+    right: 20px;
+    top: 10px;
+	background: yellow;
+	color: red;
+	padding: 5px 10px;
+}
