@@ -54,7 +54,7 @@ function bai8(students) {
     else if (a.name < b.name) return -1;
     else return 0;
   };
-  users.sort(compare);
+  students.sort(compare);
   return students;
 }
 //bai7

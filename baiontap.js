@@ -1,6 +1,24 @@
 
+//xử lý object
+//bài 3
+  var objs = [ 
+  {name: 'huy', gender: 'Male', age: 20},
+  {name: 'Huy', gender: 'Male', age: 22},
+  {name: 'Hưng', gender: 'Male', age: 23},
+  {name: 'My', gender: 'Male', age: 19},
+  {name: 'hung', gender: 'Male', age: 10},
+  ];
 
-  //
+function bai3(objs) {
+  var compare = function(a, b) {
+    if (a.age > b.age) return 1;
+    else if (a.age < b.age) return -1;
+    else return 0;
+  };
+  objs.sort(compare);
+  return objs;
+}
+  //bài 4 sắp xếp lại mảng trên theo tên học viên
   var objs = [ 
   {name: 'huy', gender: 'Male', age: 20},
   {name: 'Huy', gender: 'Male', age: 20},
@@ -20,8 +38,8 @@ function compare( a, b ) {
 }
 
 objs.sort( compare );
-//bai5
-  var objs = [ 
+//bai5 lọc sinh viên có chữ cái đầu 'H' hoặc 'h'
+var objs = [ 
   {name: 'huy', gender: 'Male', age: 20},
   {name: 'Huy', gender: 'Male', age: 20},
   {name: 'Hưng', gender: 'Male', age: 20},
@@ -29,12 +47,38 @@ objs.sort( compare );
   {name: 'hung', gender: 'Male', age: 20},
   ];
   
-function getHname( x ) {
-  if ( x.name.toUpperCase().charAt(0)==='H')
-  return objs(getHname);
+function getHname() {
+var obj =[];
+for(var i =0; i< objs.length;i++){
+  if ( objs[i].name.toUpperCase().charAt(0)==='H'){
+      obj.push(objs[i].name);
+    }
+  }
+  return document.write(obj);
 }
+getHname();
+//bài 6
+var obj = [
+  { name: 'Huy', gender: 'Male', age: 20 },
+  { name: 'Huy', gender: 'Male', age: 26 },
+  { name: 'Huy', gender: 'Male', age: 21 },
+  { name: 'Huy', gender: 'Male', age: 23 }
+]
+function age() {
+  var trungbinh = 0;
+  for(var i = 0;i< obj.length;i++){
+    trungbinh += obj[i].age;
+  }
+  return trungbinh /= obj.length
+}
+console.log(age())
 
-// số nguyên tố
+//xử lý số
+//bài 1 viết hàm tính hình cầu
+function hinh_cau(R){
+  return (hinh_cau = 4/3 * math.PI * (R*R*R));
+}
+//bài 3 số nguyên tố
 
 function kiem_tra_snt(n)
 {
@@ -67,7 +111,7 @@ function kiem_tra_snt(n)
     }
 }
 
-//
+//bài 2 
 function sumNumber (num1, num2) {
   var tong = 0;
   if(num1 < 0 || num2 < 0) {
@@ -81,7 +125,7 @@ function sumNumber (num1, num2) {
 }
 document.write(sumNumber(3,8))
 
-// tổng của ước
+//bài 5  tổng của ước
 function uoc(number) {
   var tong = 0;
   if( number >= 0) {
@@ -95,7 +139,7 @@ function uoc(number) {
 }
 console.log(uoc(6))
 
-//
+//bài 6 fibonacci
 function fibonacci (n) {
 var sum = 0
   if (n===1) {
@@ -105,13 +149,9 @@ else {
     var tong = fibonacci(n - 1);
     tong.push(tong[tong.length - 1] + tong[tong.length - 2]);
     return tong;
-}  if (n % 2 ==0 ){
-for (var i = 0; i < tong; i ++){
-                sum += i; 
-            }
-        }return sum;           
+}      
 };
-console.log(fibonacci(8));
+console.log(fibonacci(8));// đoạn này em chưa làm xong
 
 // xử lý chuỗi
 //bài 1 viết hoa chữ cái đầu
@@ -122,29 +162,18 @@ function titleCase(arr) {
    }
    return newArr.join(' '); 
 }
-//
+// bài 2
 function spinalCase(array) {
-  var newArr = '';
-  var arr = array.split('');
-  for (var i = 0; i < arr.length; i += 1) {
-    if (i > 0) {
-      if (arr[i] >= 'A' && arr[i] <= 'Z') {
-        if (arr[i - 1] >= 'a' && arr[i - 1] <= 'z') {
-          newArr += '-';
-          newArr += arr[i].toLowerCase();
-          continue;
-        }
-      }
-      else if (arr[i] === ' ' || arr[i] === '_') {
-        newArr += '-';
-        continue;
-      }
-    }
-    newArr += arr[i].toLowerCase();
-  }
-  return newArr;
+array = array.toLowerCase()
+return array.replace(/ /g, '-');
+//bài 3
+function ifEqual(str) {
+str = str.toLowerCase().trim();
+    return str === str.split("").reverse().join("")
 }
-spinalCase("'to la hung");
+document.write(ifEqual("loL  "))
+
+// tổng hợp
 // phương trình bậc nhất
 function giai_pt_bac_nhat(a, b)
 {
@@ -161,28 +190,26 @@ function giai_pt_bac_nhat(a, b)
         alert('Phương trình có nghiệm x = ' + (-b/a));
     }
 }
-//
-function ptbh()
+//phương trình bậc 2
+
+var a=parseFloat (prompt("nhap a",""));
+var b=parseFloat (prompt("nhap b",""));
+var c=parseFloat (prompt("nhap c",""));
+var delta=((b*b)-(4*a*c));
+if (delta==0)
 {
-var a, b, c, delta, x, x1, x2;
-a = document.nhap.a.value;
-b = document.nhap.b.value;
-c = document.nhap.c.value;
-delta = b*b - 4*a*c;
-if (delta < 0)
-{
-document.write(" Phương trình vô nghiệm ");
+ alert ("phuong trinh co nghiem kep x1 = x2 = " +(-b/2/a) +" ");
+ 
 }
-else if (delta ==0)
+else
 {
-x = -b/2*a;
-document.nhap.f.value =x;
-}
-else if (delta > 0)
-{
-x1 = (-b + Math.sqrt(delta))/(2*a);
-document.nhap.d.value =x1;
-x2 = (-b - Math.sqrt(delta))/(2*a);
-document.nhap.e.value =x2;
-}
+ if (delta>0)
+ {
+ alert ("phuong trinh co nghiem x1 = "+ ((-b-Math.sqrt(delta))/2/a)+", x2 = "+ ((-b+Math.sqrt(delta))/2/a)+" ");
+ 
+ }
+ else
+ {
+ alert ("phuong trinh vo nghiem");
+ }
 }
