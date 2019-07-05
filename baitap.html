@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai tap DOM </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+	<p id = 'item1'>Paragraph 1: Ea aute et mollit laborum excepteur ut culpa officia dolor ut in eiusmod sunt. Lorem ipsum aliquip labore labore sint consequat dolore et culpa enim. Ea ut consectetur consectetur enim consequat ex ad pariatur proident elit in dolor cupidatat et do quis.</p>
+ 	<p id = 'item2'>Paragraph 2: Dolore eiusmod amet incididunt veniam aliqua sed anim et laborum. In pariatur dolore sint excepteur dolor in eu exercitation officia ea exercitation eiusmod aliquip proident. In nulla qui dolor in laborum officia nostrud duis non mollit pariatur voluptate qui.
+	</p>
+	<p id = 'item3'>Paragraph 3: Id laborum commodo minim fugiat nisi ullamco ex mollit officia. Anim deserunt eiusmod sunt eu eu ut in occaecat esse reprehenderit. Tempor cillum velit nostrud qui fugiat deserunt irure incididunt culpa ad.
+	</p>
+	<p id = 'item4'>Paragraph 4: Lorem ipsum eiusmod cillum elit enim laborum sint do irure nulla nisi laboris excepteur ullamco consequat irure consectetur reprehenderit occaecat. Lorem ipsum et culpa sed non anim dolor fugiat ea mollit. Velit cillum exercitation nulla eiusmod ut aute ut fugiat cillum aliqua cillum consequat cupidatat qui exercitation.
+	</p>
+	<p id = 'item5'>Paragraph 5: Mollit ex voluptate ex excepteur duis qui dolor proident do proident proident incididunt. Ea anim aliquip mollit minim sit aliquip veniam aliquip. Non pariatur pariatur est consectetur cillum elit est non aliqua tempor proident amet.
+	</p>
+	<p id = 'item6'>Paragraph 6: Irure adipisicing in commodo ut officia qui nulla duis et dolor. Magna laborum proident ex reprehenderit dolore deserunt consectetur elit irure minim veniam ut nulla dolore incididunt irure. Lorem ipsum fugiat mollit dolor nostrud nisi in cillum qui mollit culpa anim.
+	</p>
+	<p id = 'item7'>Paragraph 7: Mollit velit anim in aliquip in irure incididunt anim eu aliqua fugiat minim. Aliqua non consectetur exercitation dolore proident do elit excepteur eu labore aute pariatur occaecat velit velit aliquip id. Labore deserunt dolor deserunt pariatur qui sunt in dolore incididunt ad deserunt officia dolor.</p>
+	bai 1
+	<script>
+	function color(){
+	document.getElementById('item1').style.color= ' green';
+	document.getElementById('item2').style.color= ' blue';
+	document.getElementById('item3').style.color= ' red';
+	}
+	color();
+	</script>
+	bai 2
+	<script>
+
+	function changeBgColor(color){
+		document.body.style.backgroundColor = color;
+	}
+	</script>
+	bai 3
+	<script>
+ 
+	function copyContent(paragraph1, paragraph2){
+		document.getElementById("item1").textContent = document.getElementById("item2").textContent;
+	}	
+	</script>
+	bai 4
+	<script>
+
+	function changeFontSize(x){
+		document.body.style.fontSize = x + 'px';
+	}
+	</script>
+	bai 5
+	<script>
+
+	function increaseFontSize(paragraph){
+		var max = 30;
+		var p = document.getElementById('item3');
+		var style = window.getComputedStyle(p, null).getPropertyValue('font-size');
+		var fontSize = parseInt(style);
+		if (fontSize < max) {
+			p.style.fontSize = (fontSize + 1) + 'px';
+		}
+		else {
+			p.style.fontSize = fontSize + 'px';
+		}
+	}
+	</script>
+	bai 6
+	<script>
+
+
+	function decreaseFontSize(paragraph){
+		var min = 10;
+				var p = document.getElementById('item3');
+		var style = window.getComputedStyle(p, null).getPropertyValue('font-size');
+		var fontSize = parseInt(style);
+		if (fontSize > min) {
+			p.style.fontSize = (fontSize - 1) + 'px';
+		}
+		else {
+			p.style.fontSize = fontSize + 'px';
+		}
+	}
+	</script>
+
+
+
+</body>
+</html>
