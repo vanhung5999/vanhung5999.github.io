@@ -1,0 +1,58 @@
+
+* {padding: 0; margin: 0;}
+body {
+	background-image: url("hung.jpg");
+	font-family: Arial;
+ font-size: 16px;
+  color: #000;
+  padding: 200px 0px 0px 200px
+}
+.box-button{
+	clear:both;
+}
+
+#khung{
+	margin: 0;
+	padding: 15px;
+	border: 2px solid white;
+	width: 285px;
+}
+#ketqua{
+	margin:  0px 0px 15px 0px;
+	padding: 10px 10px 10px 10px;
+	text-align: right;
+	width: 265px;
+	outline: none;
+	border: 1px solid #333;
+}
+
+#mau4{
+	background-color: red;
+}
+#mau5{
+	background-color: red;
+}
+#mau6{
+	background-color: red;
+}
+#mau7{
+	background-color: red;
+}#mau8{
+	background-color: red;
+}
+.button{
+	margin: 0px 0px 15px 15px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #666;
+	color: white;
+	width: 40px;
+}
+.button.first{
+	margin-left: 0px;
+}
+.button:hover{
+	background-color: #333;
+}
