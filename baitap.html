@@ -20,6 +20,7 @@
 	</p>
 	<p id = 'item7'>Paragraph 7: Mollit velit anim in aliquip in irure incididunt anim eu aliqua fugiat minim. Aliqua non consectetur exercitation dolore proident do elit excepteur eu labore aute pariatur occaecat velit velit aliquip id. Labore deserunt dolor deserunt pariatur qui sunt in dolore incididunt ad deserunt officia dolor.</p>
 	bai 1
+
 	<script>
 	function color(){
 	document.getElementById('item1').style.color= ' green';
@@ -28,18 +29,20 @@
 	}
 	color();
 	</script>
+
 	bai 2
+	<button type="button" onclick = 'changeBgColor'>đổi màu</button>
 	<script>
 
 	function changeBgColor(color){
-		document.body.style.backgroundColor = color;
+		document.body.style.backgroundColor = 'red';
 	}
 	</script>
 	bai 3
 	<script>
  
 	function copyContent(paragraph1, paragraph2){
-		document.getElementById("item1").textContent = document.getElementById("item2").textContent;
+		document.getElementById("paragraph1").textContent = document.getElementById("paragraph2").textContent;
 	}	
 	</script>
 	bai 4
