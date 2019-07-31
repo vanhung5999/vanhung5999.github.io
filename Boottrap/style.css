@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.h3{
+	padding-top:20px; 
+	text-align: center;
+    border-bottom: 2px solid black;
+}
+img{max-width: 100%; width: 300px;}
+#sapa{
+	max-width:616px;
+}
+#hoian{
+	max-width: 1000px;
+}
+#hoian2{
+	padding: 0px;
+	max-width: 1000px;
+}
+.flex-item {
+	display: flex
+}
+.flex-item > * {
+	width: 50%
+}
+.row-reverse {
+	flex-direction: row-reverse;
+}
+p{
+	padding: 30px;
+	font-size: 16px;
+}
+.carousel {
+    cursor: pointer;
+}
+.so1{
+	max-width: 100%;
+	width: 80px;
+}
+
