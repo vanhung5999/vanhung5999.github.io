@@ -230,6 +230,9 @@ main{
 	bottom: 0;
 	display: flex;
 }
+.image-title{
+	font-size: 16px;
+}
 .image-title > *{
 	width: 25%;
 	display: flex;
