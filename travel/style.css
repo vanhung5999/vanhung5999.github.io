@@ -27,6 +27,12 @@ header{
 .logo-zone {
 	width: 50%
 }
+.what{
+	margin-bottom: -1px;
+}
+.where{
+	    margin-bottom: -1px;
+}
 .navbar {
 	width: 50%;
 }
