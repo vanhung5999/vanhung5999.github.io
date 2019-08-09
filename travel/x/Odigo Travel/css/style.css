@@ -1,0 +1,117 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ==== Hero ==== */
+.hero {
+	min-height: 962px;
+	background-image: url('../images/Hero.png');
+	color: white;
+}
+
+.hero-wrap {
+	padding-top: 56px;
+}
+
+.nav-item {
+	padding-right: 82px;
+}
+
+.nav-item:last-child {
+	padding-right: 0;
+}
+
+.hero-header {
+	margin-top: 176px;
+	font-size: 50px;
+	line-height: 60px;
+	max-width: 619px;
+}
+
+.hero-desc {
+	margin-top: 22px;
+	max-width: 546px;
+}
+
+.button-wrap {
+	margin-top: 59px;
+}
+
+.input-wrap {
+	padding-right: 61px;
+	position: relative;
+}
+
+.hero input[type=text] {
+	border: none;
+	border-bottom: 3px solid #D8D8D8;
+	background-color: transparent;
+	width: 297px;
+	padding-bottom: 22px;
+	padding-left: 44px;
+	
+}
+
+.hero input[type=text]:focus {
+	color: white;
+	font-size: 18px;
+	outline: none;
+}
+
+.hero input[type=text]::placeholder {
+	color: white;
+	font-size: 18px;
+}
+
+.fa-circle {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.hero .btn {
+	font-size: 24px;
+	background-color: #1B7DFF;
+	padding: 14px 39px;
+	border-radius: unset;
+}
+
+/* ==== Benefits ==== */
+.benefits {
+	padding: 93px 102px;
+	margin-top: -223px;
+	box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+	background-color: white;
+}
+
+.benefits-header {
+	font-size: 35px;
+	line-height: 42px;
+	color: #102746;
+	font-weight: 500;
+}
+
+.card-wrap {
+	padding-top: 120px;
+}
+
+.benefits .card {
+	border: none;
+}
+
+.benefits .card-body {
+	padding-top: 37px;
+}
+
+.benefits .card-title {
+	font-size: 18px;
+	margin-bottom: 26px;
+}
+
+.benefits .btn-wrap {
+	padding-top: 33px;
+}
+
+.benefits .btn {
+	color: #006DFE;
+}
