@@ -1,4 +1,15 @@
 
+@media screen and (min-width: 1440px) {
+	 .logo-zone,.menu,.main-zone,.featured-zone,.latests-flex{
+  		max-width: 940px !important;
+  		margin: auto;
+	}
+}
+@media screen and (min-width: 960px) {
+.logo-zone,.menu,.main-zone,.featured-zone,.latests-flex{
+	max-width: 900px;
+	} 
+}
 @media screen and (max-width: 599px) {
 .main-zone .featured-zone {
 		flex-direction: column;
@@ -12,15 +23,4 @@
 .footer-zone .footer-flex > * {
 	width: 100%;
 }
-}
-@media screen and (min-width: 1440px) {
-	 .logo-zone,.menu,.main-zone,.featured-zone,.col-md-4,.latests-flex{
-  		max-width: 940px !important;
-  		margin: auto;
-	}
-}
-@media screen and (min-width: 960px) {
-.logo-zone,.menu,.main-zone,.featured-zone,.col-md-4,.latests-flex{
-	max-width: 900px;
-	} 
 }
