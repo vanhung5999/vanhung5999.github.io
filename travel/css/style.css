@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	background-color: #f1f1f1;	
+}
+.btn-primary {
+	background: orange;
+	border-color: orange;
+}
+.color{
+	background: white ;
+	margin-bottom: 50px;
+}
+.main-zone{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo-zone{
+	display: flex;
+	margin:auto;
+}
+.logo{
+	margin: auto;
+}
+.text-logo{
+	margin-right: 100px;
+	font-family: "Montserrat";
+	font-style: 13px;
+}
+.borde-zone{
+		display: flex;
+}
+.borde-logo input{
+	display: none;
+}
+.borde-logo .round1, .round2, .round3, .round4{
+	margin-left: 5px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.borde-logo input:checked + label {
+	background-color: red
+}
+.logo hr{
+	margin:auto;
+	width: 88%;
+	margin-top: unset;
+	margin-top: 65px;
+	margin-bottom: 10px;
+}
+.menu{
+	margin: auto;
+}
+.text-menu a{
+	margin: auto;
+	margin-bottom: 10px;
+	color: black;
+}
+.img-banner{
+	position: relative;
+	height: 604px;
+	background: url("../img/banner.png")no-repeat center;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+.banner-travel{
+	position: absolute;
+    margin: auto;
+    bottom: 50px;
+    left: 25%;
+    width: 80%;
+    font-size: 28px;
+    transform: translate(-19%,0);
+}
+.text-travel{
+	background: white;
+	opacity: 0.9;
+}
+.text-banner button{
+	display: block;
+	margin: auto;
+    margin-bottom: 10px;
+}
+.text-banner{
+	margin: 15px 89px;
+}
+.featured-zone{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.featured-zone > *{
+	width: 33%;
+}
+
+.text-featured button{
+    margin-bottom: 10px;
+}
+.img-featured1{
+	position: relative;
+	background: url("../img/anh1.png")no-repeat center;
+	background-size: cover;
+}
+.img-featured2{
+	position: relative;
+	background: url("../img/anh2.png")no-repeat center;
+	background-size: cover;
+}
+.img-featured3{
+	position: relative;
+	background: url("../img/anh3.png")no-repeat center;
+	background-size: cover;
+}
+.text-featured{
+    color: white;
+    margin-top: 122px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+}
+.latests-flex{
+	justify-content: space-between;
+	display: flex;
+}
+.latests-posts button{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.latests-img{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog1.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img2{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog2.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img3{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog3.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img4{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog4.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img5{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog5.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img6{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog6.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img7{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog7.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img8{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog8.png")no-repeat center;
+	background-size: cover;
+}
+.latests-img9{
+	position: relative;
+	width: 32%;
+    height: 387px;
+	background: url("../img/blog9.png")no-repeat center;
+	background-size: cover;
+}
+.latests-travell > *{
+	position: absolute;
+    margin: auto;
+    margin-top: 89%;
+    left: 25%;
+    width: 80%;
+    font-size: 14px;
+    transform: translate(-19%,0);
+}
+.lastests-travel{
+}
+.page-link{
+	color: black;
+}
+.page-link:hover{
+	background: orange;
+	color:white;
+}
+.navigation-zone{
+	margin-top: 20px;
+	display: flex;
+    justify-content: center;
+}
+.instagram-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.img-instagram{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram1.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram2.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram7.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram8.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram5{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram3.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram4.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram7{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram5.png")no-repeat center;
+	background-size: cover;
+}
+.img-instagram8{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 24%;
+	height: 195px;
+	background: url("../img/instagram6.png")no-repeat center;
+	background-size: cover;
+}
+.footer-zone{
+	background:black;
+	color:white;
+}
+.footer-flex{
+	padding: 75px 250px 64px 250px;
+	display: flex;
+}
+.about{
+width: 33%
+}
+.updater{
+width: 33%
+}
+.posts{
+width: 33%
+}
+.flex-img-posts {
+	display: flex
+}
+.img-posts{
+	height: 100%;
+	width: 30%;
+	/*background: url("../img/anh1.png")no-repeat center;*/
+	/*background-size: cover;*/
+}
+.img-posts img {
+	max-width: 100%
+}
+.post-content {
+	width: 70%
+}
+.footer-zone hr{
+	    display: block;
+    background: white;
+    width: 46%;
+    margin: auto;
+}
+.copyright{
+   display: block;
+    margin: auto;
+    width: 22%;
+   padding: 50px 0;
+}
