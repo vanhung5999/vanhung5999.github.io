@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+body{
+	margin: auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+/* header */
+.menu-zone-top{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu-zone-2{
+	display: flex;
+    justify-content: space-between;
+}
+.logo{
+	padding-bottom: 15px;
+}
+.text-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	display: flex;
+}
+.text-content{
+	margin-top: 20px;
+	width: 33%;
+}
+.text-content p{
+	text-align: center;
+	padding: 10px;
+}
+.foot{
+	text-decoration: overline;
+}
+.color-family{
+	background: #f3f3f3;
+}
+.text-family{
+	text-align: center;
+}
+.text-family p{
+	    text-align: justify;
+}
+.menu-left {
+    position: relative;
+}
+.menu-left .panel {
+    border: none!important;
+    background: #f1f1f1;
+}
+.menu-left .panel-side-menu .panel-body {
+    padding: 0!important;
+}
+.menu-left .side-menu {
+    padding: 0;
+    list-style: none;
+}
+.menu-left .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.menu-left .side-menu li a {
+    padding: 14px 15px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 16px;
+}
+.menu-left .side-menu li a i {
+    font-size: 16px;
+    color: #4c4c4c;
+    width: 20px;
+}
+a {
+    cursor: pointer;
+    transition: all linear .15s;
+}
+.text-journeys{
+	margin-top: 20px;
+}
+.text-home{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.home-family{
+	display: flex;
+	flex-wrap: wrap;
+}
+.text-home_2{
+	padding: 10px;
+	background: #EDEDED;
+}
+.money-home{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	background: white;
+}
+.text-home_2 p{
+	text-align: center;
+}
+.text-left-home {
+	text-align: left !important;
+}
+.home-family_item{
+	margin-bottom: 4%;
+	width: 31%;
+	margin-right: 2%;
+
+}
+.text-left-home_2{
+	opacity: 0.7;
+	text-align: left !important; 
+}
+.img-family{
+	position: relative;
+}
+.vote-family{
+	display: flex;
+	position: absolute;
+	border-radius: 13px;
+	color: white;
+    top: 14px;
+    left: 14px;
+}
+.star_1{
+	color: yellow
+}
+
+/* footer */
+.booter{
+	margin: 0;
+	background: #C4C4C4;
+	padding: 30px 40px;
+}
+.booter-zone{
+	margin:auto;
+}
+.booter-zone a{
+	margin: 10px;
+	color: black;
+}
+.booter-zone img {
+	margin-right: 17px;
+}

@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+body{
+	margin: auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/*footer*/
+
+.menu-zone-top{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu-zone-2{
+	display: flex;
+    justify-content: space-between;
+}
+.logo{
+	padding-bottom: 15px;
+}
+.text-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img{
+	padding: 8px;
+}
+.item-menu{
+	display: flex;
+}
+.item-menu a{
+padding: 10px;
+}
+
+.img-banner{
+	position: relative;
+	background: url("../img/banner.jpg")no-repeat center;
+	background-size: cover;
+	height: 562px;
+	margin-bottom: 100px;
+}
+.banner-travel{
+    position: absolute;
+    margin: auto;
+    bottom: 49px;
+    left: 13%;
+    width: 30%;
+    font-size: 18px;
+    transform: translate(-25%,0);
+    text-align: center;
+}
+.text-banner{
+	font-size: 20px;
+	color: white;
+	font-family: 'Rufina', serif;
+}
+
+
+/*main*/
+.category {
+	display: flex;
+	justify-content: space-between;
+}
+.img-category{
+	width: 30%
+}
+.category img {
+	max-width: 100%;
+}
+.img-parent {
+	position: relative;
+}
+.caption{
+	text-align: center;
+	padding: 10px 0;
+	background: rgba(230,230,230,0.7);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.text-listTravel{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.travels{
+	height: 564px;
+	display: flex;
+	justify-content: space-between;
+}
+.travels img {
+	max-width: 100%
+}
+.travel-left{
+
+	width: 24%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: red
+}
+.travel-left div{
+	height: 48%;
+}
+.travel-right{
+	width: 24%;
+	background: blue
+}
+.travel-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 48%;
+	background: yellow
+}
+.travel-center .big-img {
+	height: 52%;
+	background: orange;
+}
+.travel-center_flex{
+	display: flex;
+	justify-content: space-between;
+	height: 45%;
+}
+.travel-center_flex div {
+	width: 48%;
+}
+.fixed-bg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  background-image: url("../img/banners.png");
+  min-height: 230px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.info{
+	/*background: url("../img/banners.png") no-repeat;*/
+}
+.info-banner{
+	display: flex;
+	justify-content: space-between;
+}
+.steps {
+	display: flex;
+	width: 23%
+}
+.info-borders {
+	margin-right: 10px;
+	width: 25%
+}
+.info-border{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: white;
+	
+}
+.color-info{
+	color: orange;
+	font-size: 20px;
+	font-weight: bold;
+}
+.text-infos{
+	color: white;
+}
+.info-details{
+	margin-top: 100px;
+}
+.info-details_img{
+	
+	background: url("../img/clb.png") no-repeat center;
+	width: 50%;
+	height: 350px;
+}
+.info-details_imgg{
+	
+	background: url("../img/time.png") no-repeat center;
+	width: 50%;
+	height: 350px;
+}
+.info-details_imgs{
+	
+	background: url("../img/tietkiem.png") no-repeat center;
+	width: 50%;
+	height: 350px;
+}
+.info-details-text{
+	text-align: justify;
+	align-items: center;
+	display: flex;
+    padding: 0 60px;
+	width: 50%;
+}
+.info-details-zone{
+	display: flex;
+}
+.info-details-center {
+	flex-direction: row-reverse;
+}
+.form-signingup{
+  background-image: url("../img/buocchan.png");
+  min-height: 230px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.form-signingup-zone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-signingup_Text{
+		text-align: justify;
+	align-items: center;
+	display: flex;
+}
+/*header*/
+
+.text-header{
+	
+}
+.booter{
+	margin: 0;
+	background: #C4C4C4;
+	padding: 30px 40px;
+}
+.booter-zone{
+	margin:auto;
+}
+.booter-zone a{
+	margin: 10px;
+	color: black;
+}
+.booter-zone img {
+	margin-right: 17px;
+}
+
+/* media */
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1170px!important
+}
+}

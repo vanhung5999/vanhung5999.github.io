@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>travel</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/dangnhap.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/DangNhap.js"></script>
+</head>
+<body>
+	<header>
+		<div class="menu container-fluid">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<div class="menu-zone">
+				<div class="navbar text-menu">
+					<a href="#">Đăng ký</a>
+					<a href="#">Đăng Nhập</a>
+					<a href="#">Giỏ hàng<img src="img/GioHang.png"></a>
+					<a href="#"><img src="img/Phone.png">0123456789</a>
+				</div>
+				<div class="navbar text-menu-2">
+					<a href="#">Trang chủ</a>
+					<a href="#">Địa điểm</a>
+					<a href="#">Về chúng tôi</a>
+					<a href="#">Shop</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+		<main>
+			<div class="login-zone">
+				<div class="login">
+				<legend><h1>Đăng ký</h1></legend>
+				<form>
+					<div>
+					<span class="text-login">Tên Đăng Nhập</span>
+					<input onkeyup="check(this.value, 'name')" id="name-input" class="names" type="text" name="name" value="" placeholder="tên đăng nhập"  maxlength="20"> <p id="name" class="none" style="color: green">&#10004</p>
+					</div>
+					<div>
+					<span class="text-login">Mật khẩu:</span><br>
+					<input onkeyup="check(this.value,'password')" id="pass-input" class="password" type="password" name="password" placeholder="có ít nhất một chữ cái viết hoa" >
+					<p id="password" class="none" style="color: green">&#10004</p>
+					</div>
+					<div>
+						<input id="i1" type="radio" name="gender"  value="nam"> <label for="i1">Nhớ mật khẩu</label>
+					</div>
+					<br>					
+					<div class="check">
+						<p>Bạn chưa có tài khoản để tham gia cộng đồng?<span>Đăng ký ngay</span></p>
+						<span>Quyên mật khẩu?</span>
+					</div>
+				<br><br>
+				<input class="gui" type="submit" name="" value="Đăng Ký">
+				</form>
+			</div>		
+			</div>
+		</main>
+		<div class="booter row">
+			<div class="col-4">
+				<div class="row booter-zone">
+					<a class="col-12 text-header" href="#"><img src="img/icon-human.png">about</a>
+					<a class="col-12 text-header" href="#"><img src="img/mail.png">contact</a>
+					<a class="col-12 text-header" href="#"><img src="img/Phone.png">0123456789</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="row booter-zone">
+					<a class="col-12 text-header" href="#"><img src="img/instar.png">instagram</a>
+					<a class="col-12 text-header" href="#"><img src="img/facebook.png">facebook</a>
+					<a class="col-12 text-header" href="#"><img src="img/google.png">google</a>
+					<a class="col-12 text-header" href="#"><img src="img/tw.png">twitter</a>
+				</div>
+			</div>
+			<div class="col-4 booter-zone">
+
+			</div>
+		</div>
+</body>

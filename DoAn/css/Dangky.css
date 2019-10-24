@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+}
+
+/* header */
+.menu{
+	display: flex;
+}
+.logo{
+	margin-left:20px;
+}
+.menu-zone{
+	margin-left:45%;
+}
+.text-menu a{
+	margin: 20px;
+	color: black;
+}
+.text-menu-2 a{
+	margin: 20px;
+	color: black;
+}
+/* main */
+
+.login-zone{
+
+}
+.login{
+	position: absolute;
+	top :50%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+	background: white;
+	padding: 30px 30px;
+	width: 40%;
+	height: 87%;
+	margin-left: 55%;
+}
+.names{
+	width: 430px;
+	padding: 10px 5px;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.password{
+	width: 430px;
+	padding: 10px 5px;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.Email{
+	width: 430px;
+	padding: 10px 5px;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.text-login{
+	color: black;
+	font-size: 18px;
+	opacity: 0.3;
+}
+.check span{
+	color: blue;
+}
+.none {
+	display:none;
+}
+.inline {
+	display: inline;
+}
+.gui{
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 81%;
+	display: block;
+	background-color: blue;
+	color: white;
+}
+main{
+	position: relative;
+	background: url(../img/dangnhap.png) no-repeat center;
+	height: 657px;
+	max-width: 100%;
+	margin:2%;
+}
+/* booter */
+.booter{
+	margin-top: 4%;
+	background: #C4C4C4;
+	padding: 30px 40px;
+}
+.booter-zone{
+	margin:auto;
+}
+.booter-zone a{
+	margin: 10px;
+	color: black;
+}
+.booter-zone img {
+	margin-right: 17px;
+}
