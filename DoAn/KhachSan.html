@@ -4,11 +4,12 @@
 	<title>travel</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
-	<link rel="stylesheet" type="text/css" href="css/HaNoi.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rufina&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 	<header>
@@ -42,12 +43,68 @@
 				</div>
 			</div>
 		</div>
-		<div class="img-fluid">
-			<img src="img/hoguom.png">
-		</div>
 		<hr style="width: 90%;border-top: 1px solid rgba(0,0,0);margin: 50px auto;">
 	</header>
-	<main>
+	<main class="container">
+		<div class="home-zone">
+			<div class="img-home">
+				<div class="w3-content">
+					<img class="mySlides" src="img/large_siesta.png">
+					<img class="mySlides" src="img/siesta5.png">
+					<img class="mySlides" src="img/siesta6.png">
+					<img class="mySlides" src="img/siesta7.png">
+					<img class="mySlides" src="img/siesta8.png">
+				</div>
+				<div>
+					<div class="w3-center img-conten">
+						<img src="img/siesta1.png" class="demo" style="width:24%" onclick="currentDiv(1)"></img> 
+						<img src="img/siesta2.png" class="demo" style="width:24%" onclick="currentDiv(2)"></img> 
+						<img src="img/siesta3.png" class="demo" style="width:24%" onclick="currentDiv(3)"></img>
+						<img src="img/siesta4.png" class="demo" style="width:24%" onclick="currentDiv(4)"></img>
+						<div class="w3-section">
+							<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+							<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div  class="text-home">
+				<div>
+					<h3 style="margin-left: 30px;">Khách sạn Hà Nội La Siesta </h3>
+					<div class="">
+						<div class="star-rating">
+							<span class="fa fa-star-o" data-rating="1"></span>
+							<span class="fa fa-star-o" data-rating="2"></span>
+							<span class="fa fa-star-o" data-rating="3"></span>
+							<span class="fa fa-star-o" data-rating="4"></span>
+							<span class="fa fa-star-o" data-rating="5"></span>
+							<input type="hidden" name="whatever1" class="rating-value" value="2.56">
+							<p>4.18/5<span class="opa"> trong </span>322<span class="opa"> lượt đánh giá</span></p>
+						</div>
+						<hr style="width: 80%;border-top: 1px solid rgba(0,0,0);margin: 7px auto;">
+						<div>
+							<p>Gía tiền:</p>
+							<p><span style="color: red;font-size: 20px;">1.500.000 VNĐ</span></p>
+						</div>
+						<hr style="width: 80%;border-top: 1px solid rgba(0,0,0);margin: 7px auto;">
+						<div>
+							<p style="font-size: 18px;">Điểm nổi bật</p>
+							<p>- Vị trí khu phố cổ tuyệt vời 
+							</p>
+							<p>- Nhà hàng, phòng tập thể dục, rạp chiếu phim, và spa 
+							</p>
+							<p>- Nhiều chỗ ở tốt</p>
+						</div>
+						<hr style="width: 80%;border-top: 1px solid rgba(0,0,0);margin: 8px auto;">
+						<div>
+							<p style="font-size: 18px;">Điện thoại liên hệ</p>
+							<p>0842093567</p>
+							<p>0842552740</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 	</main>
 	<footer>
@@ -73,6 +130,8 @@
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/home-travel.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

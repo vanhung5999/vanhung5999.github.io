@@ -28,9 +28,36 @@ img{
 .logo{
 	padding-bottom: 15px;
 }
+.tel{
+	display: flex;
+}
+.animation-shake {
+	font-size: 10px;
+	animation: shake .5s linear infinite;
+}
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
 
 /* main */
-
+.circle-phone {
+	padding: 2px;
+	display: flex;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
 .journeys{
 	background: #C4C4C4;
 	padding: 50px 0;
@@ -69,6 +96,9 @@ img{
 }
 .img-family{
 	position: relative;
+}
+.text-link > a{
+	color: black
 }
 .vote-family{
 	display: flex;

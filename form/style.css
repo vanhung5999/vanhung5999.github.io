@@ -8,21 +8,7 @@ body{
 	width: 25%;
 	margin: auto;
 }
-.item4{
-	width: 130%;
-	display: flex;
-}
-.item3 {
-	margin-right:10px;
-	width: 50%;
-}
-.item1{
-	margin-right:10px;
-	width: 50%;
-}
-.item2{
-	width: 50%;
-}
+
 .tên{
 	width: 430px;
 	padding: 10px 5px;
@@ -69,13 +55,7 @@ span{
 	padding: 40px;
 	background-color: white;
 }
-.phone{
-	width: 430px;
-	padding: 10px 5px;
-	border-radius: 2px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
+
 .gender{
 	margin-top: 15px;
 	margin-left: 20px;
