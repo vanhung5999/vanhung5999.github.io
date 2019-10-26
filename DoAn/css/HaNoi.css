@@ -14,6 +14,7 @@ img{
 	max-width: 100%;
 }
 
+
 /* header */
 
 .menu-zone-top{
@@ -27,6 +28,11 @@ img{
 }
 .logo{
 	padding-bottom: 15px;
+}
+.text-menu{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .tel{
 	display: flex;
@@ -46,10 +52,8 @@ img{
 		transform: rotate(0deg);
 	}
 }
-
-/* main */
 .circle-phone {
-	padding: 2px;
+	padding: 3px;
 	display: flex;
 	width: 25px;
 	height: 25px;
@@ -58,8 +62,14 @@ img{
 	justify-content: center;
 	align-items: center;
 }
+.item-menu > a{
+	color: black;
+	padding: 10px;
+}
+/* main */
+
 .journeys{
-	background: #C4C4C4;
+	background: ;
 	padding: 50px 0;
 }
 .text-journeys{
@@ -111,12 +121,53 @@ img{
 .star_1{
 	color: yellow
 }
+.img-home-zone > img{
+	align-items: center;
+}
+.text-list{
+	margin: 30px 0;
+	font-weight: bolder;
+}
+.list-travel{
+	border-radius: 7px;
+	/*padding: 30px;*/
+	background: white;
+}
+
+.nav-link.active {
+	color: #000!important;
+	background-color: #cac7c7!important
+}
+#v-pills-tab {
+	background: #e8e8e8;
+}
+#v-pills-tab hr {
+	border: none!important;
+}
+.nav-pills .nav-link {
+	border-radius: unset
+}
+.nav-link {
+	color: #000!important
+}
+.text-list_zone > p{
+	padding: 40px;
+}
 /* footer */
 
+.text-header{
+	
+}
 .booter{
+	display: flex;
+	justify-content: space-between;
 	margin: 0;
 	background: #C4C4C4;
 	padding: 30px 40px;
+}
+.footer-zone{
+	display: flex;
+	justify-content: space-between;
 }
 .booter-zone{
 	margin:auto;
@@ -127,4 +178,7 @@ img{
 }
 .booter-zone img {
 	margin-right: 17px;
+}
+.footer-item {
+	width: 30%
 }

@@ -12,40 +12,44 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-	<header>
-		<div class="menu">
+			<div class="menu">
 			<div class="menu-zone container">
 				<div class="menu-zone-top">
-					<div class="nav-item dropdown">
+					<div class="nav-item dropdown icon-menu">
 						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<img src="img/user.png">
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Đăng Ký</a>
+							<a class="dropdown-item" href="DangKy.html">Đăng Ký</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Đăng nhập</a>
+							<a class="dropdown-item" href="DangNhap.html">Đăng nhập</a>
 						</div>
 					</div>
-					<div><img class="img" src="img/Phone.png">084252525</div>
+						<div class="tel">
+							<span class="circle-phone">
+								<img class="animation-shake" src="img/phonee.jpg">
+							</span>
+							<span>0842092055</span>
+						</div>
 				</div>
 			</div>
 			<div class="menu-zone-2 container">
 				<div class="logo">
-					<img src="img/logo.png">
+					<a href="index.html"><img src="img/logo.png"></a>
 				</div>
 				<div class="text-menu">
 					<div class="item-menu">
-						<a>Trang chủ</a>
-						<a>Địa điểm</a>
-						<a>Về chúng tôi</a>
-						<a>Cửa hàng</a>
+						<a href="index.html">Trang chủ</a>
+						<a href="listTravel.html">Địa điểm</a>
+						<a href="blog.html">Về chúng tôi</a>
+						<a href="listHome.html">khách sạn</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<hr style="width: 90%;border-top: 1px solid rgba(0,0,0);margin: 50px auto;">
-	</header>
-	<main class="container">
+	<main>
+		<div class="container">
+			<hr style="width: 100%;border-top: 1px solid rgba(0,0,0);margin: 20px auto;">
 		<div class="home-zone">
 			<div class="img-home">
 				<div class="w3-content">
@@ -57,13 +61,13 @@
 				</div>
 				<div>
 					<div class="w3-center img-conten">
-						<img src="img/siesta1.png" class="demo" style="width:24%" onclick="currentDiv(1)"></img> 
-						<img src="img/siesta2.png" class="demo" style="width:24%" onclick="currentDiv(2)"></img> 
-						<img src="img/siesta3.png" class="demo" style="width:24%" onclick="currentDiv(3)"></img>
-						<img src="img/siesta4.png" class="demo" style="width:24%" onclick="currentDiv(4)"></img>
+						<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮</button>
+						<img src="img/siesta1.png" class="demo" style="width:20%" onclick="currentDiv(1)"></img> 
+						<img src="img/siesta2.png" class="demo" style="width:20%" onclick="currentDiv(2)"></img> 
+						<img src="img/siesta3.png" class="demo" style="width:20%" onclick="currentDiv(3)"></img>
+						<img src="img/siesta4.png" class="demo" style="width:20%" onclick="currentDiv(4)"></img>
+						<button class="w3-button w3-light-grey" onclick="plusDivs(1)"> ❯</button>
 						<div class="w3-section">
-							<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-							<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
 						</div>
 					</div>
 				</div>
@@ -105,30 +109,137 @@
 				</div>
 			</div>
 		</div>
-		
+		<div>
+			</div>
+			<div class="container">
+			<hr style="width: 100%;border-top: 1px solid rgba(0,0,0);margin: 30px auto;">
+			<h3>Tổng quan :</h3>
+			<div class="text-home_zone">
+			<p>
+				Khách sạn Hà Nội La Siesta là một khách sạn hiện đại ở trung tâm thành phố Hà Nội thịnh vượng, miền bắc Việt Nam. Khách sạn tự hào có 50 phòng ngủ và phòng căn hộ đầy đủ tiện nghi, nhà hàng, spa và rạp chiếu phim trong nhà, tất cả đều nằm trong khu phố cổ của thành phố thủ đô của Việt Nam sôi động. Kết hợp bầu không khí chào đón với dịch vụ tuyệt vời, La Siesta mang đến ốc đảo thoải mái giữa đô thị sôi động này.
+			</p>
+			<p>Nhà hàng Red Bean Restaurant của khách sạn là một nơi tuyệt vời cho mọi người xem. Nằm ở tầng trệt, nó mở cửa suốt cả ngày và phục vụ thực đơn gọi món chuyên về ẩm thực Việt Nam. Khách sạn có phòng tập thể dục máy lạnh được trang bị tốt, và một spa nổi tiếng, nơi được khuyến nghị đặt phòng. La Siesta cũng tự hào có rạp chiếu phim 20 chỗ ngồi của riêng mình, với một loạt các bộ phim để lựa chọn.
+			</p>
+			<p>Chỗ ở tại La Siesta bao gồm 50 phòng ngủ và phòng ngủ thông minh và đầy phong cách, có diện tích từ phòng đôi hoặc phòng đôi Superior khiêm tốn cho đến phòng Suites Suites cực kỳ rộng rãi được đặt trên hai cấp độ. Tất cả các phòng và dãy phòng đều có giường đôi hoặc giường đôi và phòng tắm có vòi sen, và một số phòng có bồn tắm. Tất cả các phòng đều có máy lạnh, truyền hình vệ tinh, Wi-Fi, tủ lạnh và minibar. Lưu ý rằng một số phòng nhỏ hơn không có cửa sổ bên ngoài. Các phòng lớn nhất có khu vực nhà bếp, ăn uống và phòng khách riêng biệt và một số phòng có ban công nhìn ra thành phố.
+			</p>
+			</div>
+		</div>
+		<div>
+			<hr style="width: 100%;border-top: 1px solid rgba(0,0,0);margin: 50px auto;">
+			<h3 style="text-align: center; margin-bottom: 30px;">Những lựa chọn khác :</h3>
+			<div class="list-home_2">
+			 						<div class="border border-dark home-family_item">
+ 							<div>
+ 								<div class="img-family">
+ 									<div class="vote-family">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star">
+ 									</div>
+ 									<img src="img/large_siesta.png">
+ 								</div>
+ 							</div>
+ 							<div class="text-home_2">
+ 								<p class="text-left-home">Khách sạn Hà Nội La Siesta</p>
+ 								<p class="text-left-home_2">Hà Nội</p>
+ 								<div class="money-home">
+ 									<p>giá tiền</p>
+ 									<p style="color: red; font-size: 25px;"><b>3.000.000 VNĐ</b></p>
+ 								</div>
+ 								<p> Vị trí khu phố cổ tuyệt vời </p>
+ 								<p>Nhà hàng, phòng tập thể dục, rạp chiếu phim, và spa </p>
+ 								<p>Nhiều chỗ ở tốt</p>
+ 							</div>
+ 						</div>
+ 						 						<div class="border border-dark home-family_item">
+ 							<div>
+ 								<div class="img-family">
+ 									<div class="vote-family">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star">
+ 									</div>
+ 									<img src="img/large_siesta.png">
+ 								</div>
+ 							</div>
+ 							<div class="text-home_2">
+ 								<p class="text-left-home">Khách sạn Hà Nội La Siesta</p>
+ 								<p class="text-left-home_2">Hà Nội</p>
+ 								<div class="money-home">
+ 									<p>giá tiền</p>
+ 									<p style="color: red; font-size: 25px;"><b>3.000.000 VNĐ</b></p>
+ 								</div>
+ 								<p> Vị trí khu phố cổ tuyệt vời </p>
+ 								<p>Nhà hàng, phòng tập thể dục, rạp chiếu phim, và spa </p>
+ 								<p>Nhiều chỗ ở tốt</p>
+ 							</div>
+ 						</div>
+ 						 						<div class="border border-dark home-family_item">
+ 							<div>
+ 								<div class="img-family">
+ 									<div class="vote-family">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star star_1">
+ 										 <span class="fa fa-star">
+ 									</div>
+ 									<img src="img/large_siesta.png">
+ 								</div>
+ 							</div>
+ 							<div class="text-home_2">
+ 								<p class="text-left-home">Khách sạn Hà Nội La Siesta</p>
+ 								<p class="text-left-home_2">Hà Nội</p>
+ 								<div class="money-home">
+ 									<p>giá tiền</p>
+ 									<p style="color: red; font-size: 25px;"><b>3.000.000 VNĐ</b></p>
+ 								</div>
+ 								<p> Vị trí khu phố cổ tuyệt vời </p>
+ 								<p>Nhà hàng, phòng tập thể dục, rạp chiếu phim, và spa </p>
+ 								<p>Nhiều chỗ ở tốt</p>
+ 							</div>
+ 						</div>
+		</div>
+		</div>
+		</div>
 	</main>
 	<footer>
-		<div class="booter row">
-			<div class="col-4">
-				<div class="row booter-zone">
-					<a class="col-12 text-header" href="#"><img src="img/icon-human.png">about</a>
-					<a class="col-12 text-header" href="#"><img src="img/mail.png">contact</a>
-					<a class="col-12 text-header" href="#"><img src="img/Phone.png">0123456789</a>
+	<div class="booter">
+		<div class="container footer-zone">
+			<div class="footer-item">
+				<div class="booter-zone">
+					<p><b>Liên hệ :</b></p>
+					<p><a class="text-header" href="#"><img src="img/icon-human.png">about</a></p>
+					<p><a class="text-header" href="#"><img src="img/mail.png">contact</a></p>
+					<p><a class="text-header" href="#"><img src="img/Phone.png">0123456789</a></p>
 				</div>
 			</div>
-			<div class="col-4">
-				<div class="row booter-zone">
-					<a class="col-12 text-header" href="#"><img src="img/instar.png">instagram</a>
-					<a class="col-12 text-header" href="#"><img src="img/facebook.png">facebook</a>
-					<a class="col-12 text-header" href="#"><img src="img/google.png">google</a>
-					<a class="col-12 text-header" href="#"><img src="img/tw.png">twitter</a>
+			<div class="footer-item">
+				<div class="booter-zone">
+					<p><a class="text-header" href="#"><img src="img/instar.png">instagram</a></p>
+					<p><a class="text-header" href="#"><img src="img/facebook.png">facebook</a></p>
+					<p><a class="text-header" href="#"><img src="img/google.png">google</a></p>
+					<p><a class="text-header" href="#"><img src="img/tw.png">twitter</a></p>
 				</div>
 			</div>
-			<div class="col-4 booter-zone">
+			<div class="footer-item">
+				<div class="booter-zone">
+					<p><b>Thông tin</b></p>
+					<p>Tạp chí du lịch</p>
+					<p>Cẩm nang du lịch</p>
+					<p>Chính sách riêng tư</p>
+				</div>
+			</div>
+			<div class="booter-zone">
 
 			</div>
 		</div>
-	</footer>
+	</div>
+</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/home-travel.js"></script>
 

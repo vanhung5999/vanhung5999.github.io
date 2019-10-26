@@ -3,28 +3,68 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+p{
+	margin: 0;
+}
 body{
-	font-family: 'Montserrat', sans-serif;
 	margin: auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+	max-width: 100%;
 }
 
+
 /* header */
-.menu{
+
+.menu-zone-top{
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu-zone-2{
+	display: flex;
+    justify-content: space-between;
 }
 .logo{
-	margin-left:20px;
+	padding-bottom: 15px;
 }
-.menu-zone{
-	margin-left:45%;
+.text-menu{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
-.text-menu a{
-	margin: 20px;
+.tel{
+	display: flex;
+}
+.animation-shake {
+	font-size: 10px;
+	animation: shake .5s linear infinite;
+}
+@keyframes shake {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+.circle-phone {
+	padding: 3px;
+	display: flex;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+.item-menu > a{
 	color: black;
-}
-.text-menu-2 a{
-	margin: 20px;
-	color: black;
+	padding: 10px;
 }
 /* main */
 
@@ -94,10 +134,19 @@ main{
 	margin:2%;
 }
 /* booter */
+.text-header{
+	
+}
 .booter{
-	margin-top: 4%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
 	background: #C4C4C4;
 	padding: 30px 40px;
+}
+.footer-zone{
+	display: flex;
+	justify-content: space-between;
 }
 .booter-zone{
 	margin:auto;
@@ -108,4 +157,7 @@ main{
 }
 .booter-zone img {
 	margin-right: 17px;
+}
+.footer-item {
+	width: 30%
 }
